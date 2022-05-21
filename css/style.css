@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.green {
+    color: rgb(95, 207, 128);
+}
+
+.bg-green {
+    background-color: #5fcf80;
+}
+
+.bg-white {
+    background-color: #fff !important;
+}
+
+.navbar .navbar-brand:hover {
+    color: rgb(95, 207, 128);
+}
+
+.nav-link {
+    color: rgb(55, 66, 59) !important;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: rgb(95, 207, 128) !important;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdown-item:hover, .dropdown-item.active, .dropdown-item:focus {
+    color: rgb(95, 207, 128) !important;
+    background-color: transparent !important;
+}
+
+.navbar-nav li>ul.dropdown-menu {
+    color: #37423b;
+    box-shadow: 0px 0px 30px rgb(127 137 161 / 25%);
+    transition: all 0.3s ease !important;
+    border-radius: 4px;
+}
+
+.navbar-nav li:hover>ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+   position: relative; 
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    margin-top: -5px;
+    left: 100%;
+}
+
+.fs-14 {
+    font-size: 14px !important;
+}
+
+.btn-green {
+    background-color: rgb(95, 207, 128) !important;
+    border: rgb(95, 207, 128) !important;
+    color: #fff !important;
+}
+
+.btn-green a {
+    color: #fff !important;
+}
+
+.btn-green:hover {
+    cursor: pointer !important;
+    background-color: #3ac162 !important;
+    border: #3ac162 !important;
+}
+
+#hero-section {
+    width: 100%;
+    position: relative;
+}
+
+#hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background:linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+.btn-outline-transparent {
+    color: #fff !important;
+    border: 2px solid #fff !important;
+}
+
+.btn-outline-transparent a {
+    color: #fff !important;
+}
+
+.btn-outline-transparent:hover {
+    color: #fff;
+    background-color: rgb(95, 207, 128) !important;
+    border: 2px solid rgb(95, 207, 128) !important;
+}
+.btn-outline-white a {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    color: #fff !important;
+}
+
+.btn-outline-white:hover a, .btn-outline-white:hover a i{
+    color: #5fcf80 !important;
+    background-color: #fff !important;
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.image-section {
+    width: 100%;
+    background-image: url(../img/students.jpg);
+    background-position: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-grey {
+    background-color: rgb(246, 247, 246);
+}
+
+.text-grey {
+    color: #848484;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.icon-why-mentor i {
+    display: inline-block;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #ecf9f0;
+    border-radius: 50px;
+}
+
+.py-6 {
+    padding: 6px 0px;
+}
+
+.py-20 {
+    padding: 20px 0px;
+}
+
+#options .card-body h5 a {
+    color: #444;
+}
+
+#options .card:hover {
+    border-color: rgb(95, 207, 128);
+}
+
+#options .card:hover .card-body h5 a {
+    color: rgb(95, 207, 128) !important;
+}
+
+#courses h6::after, #testimonies-section h6::after {
+    content: "";
+    width: 120px;
+    height: 2px;
+    display: inline-block;
+    background: rgb(154, 225, 175);
+    margin: 4px 10px;
+}
+
+#courses .card-body .row img {
+    width: 50px;
+}
+
+.course-title a {
+    color: rgb(55, 66, 59);
+}
+
+.course-title a:hover {
+    color: #5fcf80 !important;
+}
+
+.fs-13 {
+    font-size: 13px
+}
+
+.py-6 {
+    padding: 6px 0px;
+}
+
+#trainers .card-body a {
+    color: rgb(126, 148, 134);
+}
+
+#trainers .card-body a:hover {
+    color: #5fcf80 !important;
+}
+
+#form-section .row .d-flex i {
+    font-size: 26px;
+    color: #5fcf80;
+    width: 48px;
+    height: 48px;
+    background: #ecf9f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+#form-section .row .d-flex i:hover {
+    color: #fff;
+    background: #5fcf80;
+}
+
+.pb-100 {
+    padding-bottom: 100px !important;
+}
+.testimonies-item {
+    box-sizing: content-box !important;
+    padding: 30px 30px 30px 60px !important;
+    margin: 30px 15px !important;
+    min-height: 200px !important;
+    border: 1px solid #eef0ef !important;
+    position: relative !important;
+}
+
+.testimonies-item .top-section img {
+    width: 100px;
+    border-radius: 10px;
+    border: 6px solid #fff;
+    position: absolute;
+    left: -45px;
+}
+
+.testimonies-item .top-section .text h5 {
+    border-bottom: 2px solid #c1ecce;
+}
+
+.light-green {
+    color: #c1ecce;
+}
+
+.swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+    background-color: #fff !important;
+    opacity: 1 !important;
+    border: 1px solid #5fcf80 !important;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #5fcf80 !important;
+    opacity: 1 !important;
+}
+
+footer .footer-top {
+    background-color: rgb(249, 250, 249);
+}
+
+footer a {
+    color: rgb(126, 148, 134);
+}
+
+footer a:hover {
+    color: #5fcf80 !important;
+}
+
+footer input[type="email"] {
+    border: 1px solid rgb(224, 229, 226) !important;
+    width: 100%;
+}
+
+footer input[type="email"]:focus-visible {
+    outline: none;
+}
+
+footer form {
+    position: relative !important;
+}
+
+footer button {
+    position: absolute;
+    top: 0px;
+    right: -4px;
+}
+
+footer .footer-bottom a:hover {
+    opacity: 0.8;
+}
+
+footer .footer-bottom a i {
+    font-size: 16px;
+    display: inline-block;
+    background: rgb(95, 207, 128);
+    color: rgb(255, 255, 255);
+    padding: 6px 0px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+}
+
+footer {
+    background-color: rgb(238, 240, 239);
+}
