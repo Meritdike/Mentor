@@ -15,6 +15,46 @@ body a {
     color: rgb(95, 207, 128);
 }
 
+.yellow {
+    color: #ffbb2c;
+}
+
+.dark-blue {
+    color: #5578ff;
+}
+
+.light-blue {
+    color: #47aeff;
+}
+
+.red {
+    color: #e80368;
+}
+
+.purple {
+    color: #e361ff;
+}
+
+.light-orange {
+    color: #ffa76e;
+}
+
+.teal {
+    color: #11dbcf;
+}
+
+.brown {
+    color: #b2904f;
+}
+
+.wine {
+    color: #b20969;
+}
+
+.orange {
+    color: #ff5828;
+}
+
 .bg-green {
     background-color: #5fcf80;
 }
@@ -137,6 +177,7 @@ body a {
     background-position: cover;
     background-size: cover;
     background-repeat: no-repeat;
+    height:  420px;
 }
 
 .bg-grey {
@@ -324,4 +365,30 @@ footer .footer-bottom a i {
 
 footer {
     background-color: rgb(238, 240, 239);
+}
+
+
+@media(max-width: 767px) {
+    .testimonies-item {
+        padding: 30px !important;
+        margin: 15px !important;
+    }
+
+    .testimonies-item .top-section img {
+        position: static;
+        left: auto;
+    }
+
+    .testimonies-item .top-section h5 {
+        font-size: 14px !important;
+    }
+
+    .testimonies-item .top-section p {
+        font-size: 12px !important;
+    }
+
+    .testimony p {
+        padding-bottom: 0px !important;
+        padding-right: 5px !important;
+    }
 }
