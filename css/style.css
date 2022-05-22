@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.nav-link:hover, .nav-link.active {
+.nav-link:hover, .nav-link.active, footer .footer-top a:hover, #options .card:hover .card-body h5 a, .btn-outline-light:hover a, .btn-outline-light:hover a i {
     color: rgb(95, 207, 128) !important;
 }
 
@@ -45,10 +45,6 @@
     border-color: rgb(95, 207, 128);
 }
 
-#options .card:hover .card-body h5 a {
-    color: rgb(95, 207, 128) !important;
-}
-
 #courses h6::after {
     content: "";
     width: 120px;
@@ -68,6 +64,7 @@ form input[type="text"]:focus, form input[type="email"]:focus, textarea.form-con
     border: 2px solid rgb(70, 107, 70);
 }
 
+/* stying imported slider pagination */
 .swiper-pagination-bullet {
     width: 12px !important;
     height: 12px !important;
@@ -80,36 +77,6 @@ form input[type="text"]:focus, form input[type="email"]:focus, textarea.form-con
     background-color: #5fcf80 !important;
 }
 
-footer .footer-top a:hover {
-    color: #5fcf80 !important;
-}
-
 footer input[type="email"]:focus-visible {
     outline: none;
-}
-
-
-@media(max-width: 767px) {
-    .testimonies-item {
-        padding: 30px !important;
-        margin: 15px !important;
-    }
-
-    .testimonies-item .top-section img {
-        position: static;
-        left: auto;
-    }
-
-    .testimonies-item .top-section h5 {
-        font-size: 14px !important;
-    }
-
-    .testimonies-item .top-section p {
-        font-size: 12px !important;
-    }
-
-    .testimony p {
-        padding-bottom: 0px !important;
-        padding-right: 5px !important;
-    }
 }
