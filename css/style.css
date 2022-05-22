@@ -24,14 +24,6 @@
     display: block;
 }
 
-.fs-14 {
-    font-size: 14px !important;
-}
-
-.fs-15 {
-    font-size: 15px;
-}
-
 .index::before {
     content: "";
     position: absolute;
@@ -47,10 +39,6 @@
 
 .btn:focus {
     box-shadow: none !important;
-}
-
-.py-20 {
-    padding: 20px 0px;
 }
 
 #options .card:hover {
@@ -70,28 +58,14 @@
     margin: 4px 10px;
 }
 
-.fs-13 {
-    font-size: 13px
-}
-
 #form-section .row .d-flex i:hover {
     color: #fff !important;
     background: #5fcf80 !important;
 }
 
-.pb-100 {
-    padding-bottom: 100px !important;
-}
-
-.testimonies-item {
-    box-sizing: content-box !important;
-    padding: 30px 30px 30px 60px !important;
-    margin: 30px !important;
-    min-height: 200px !important;
-}
-
-.testimonies-item .top-section img {
-    left: -55px;
+form input[type="text"]:focus, form input[type="email"]:focus, textarea.form-control:focus {
+    box-shadow: none;
+    border: 2px solid rgb(70, 107, 70);
 }
 
 .swiper-pagination-bullet {
